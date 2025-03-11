@@ -318,7 +318,7 @@ export default function Home() {
               </div>
               <div className={styles.testimonialCard}>
                 <p className={styles.testimonialText}>
-                  "Exceptional experience! This yoga class is not like other yoga classes that only focuses on you physical health but this one also focuses on your mental health. Since the day I started doing yoga I've started feeling stress free and happy. Thank you so much sir for you expert guidance and ever smiling yoga."
+                  &quot;Exceptional experience! This yoga class is not like other yoga classes that only focuses on you physical health but this one also focuses on your mental health. Since the day I started doing yoga I&apos;ve started feeling stress free and happy. Thank you so much sir for you expert guidance and ever smiling yoga.&quot;
                 </p>
                 <div className={styles.testimonialAuthor}>
                   <div className={styles.authorImage}>
@@ -337,7 +337,7 @@ export default function Home() {
               </div>
               <div className={styles.testimonialCard}>
                 <p className={styles.testimonialText}>
-                  "Thankyou so much for this months with yoga sessions, my life going better with my health condition, thankyou Nishant for the patient, support and learn about my inner peaceful, my online classes from Mexico help me a lot, and change totally my life"
+                  &quot;Thankyou so much for this months with yoga sessions, my life going better with my health condition, thankyou Nishant for the patient, support and learn about my inner peaceful, my online classes from Mexico help me a lot, and change totally my life&quot;
                 </p>
                 <div className={styles.testimonialAuthor}>
                   <div className={styles.authorImage}>

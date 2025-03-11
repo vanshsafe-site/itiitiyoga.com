@@ -55,7 +55,7 @@ export default function Login() {
       } else {
         setStatus({ type: 'error', message: data.message || 'Something went wrong' });
       }
-    } catch (_error) {
+    } catch {
       setStatus({ type: 'error', message: 'Failed to send email' });
     }
 
