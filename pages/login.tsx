@@ -16,7 +16,7 @@ export default function Login() {
     if (isAuthenticated === 'true') {
       router.push('/');
     }
-  }, [router.pathname]);
+  }, [router]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -55,7 +55,7 @@ export default function Login() {
       } else {
         setStatus({ type: 'error', message: data.message || 'Something went wrong' });
       }
-    } catch (error) {
+    } catch (_error) {
       setStatus({ type: 'error', message: 'Failed to send email' });
     }
 
@@ -94,7 +94,7 @@ export default function Login() {
                   onChange={(e) => setAgreedToTerms(e.target.checked)}
                   className={styles.checkbox}
                 />
-                <span>I agree to ITI ITI Yoga's Terms of Service</span>
+                <span>I agree to ITI ITI Yoga&apos;s Terms of Service</span>
               </label>
             </div>
 

@@ -14,7 +14,7 @@ export default function Home() {
     if (!isAuthenticated) {
       router.push('/login');
     }
-  }, []);
+  }, [router]);
 
   const handleLogout = () => {
     localStorage.removeItem('isAuthenticated');
@@ -31,7 +31,6 @@ export default function Home() {
       <Head>
         <title>ITI ITI Yogashram</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
 
       <main>
@@ -300,7 +299,7 @@ export default function Home() {
             <div className={styles.testimonialsGrid}>
               <div className={styles.testimonialCard}>
                 <p className={styles.testimonialText}>
-                  "Nishanth Sir is an excellent yoga teacher! He is calm, well-disciplined, and truly understands each student's needs. His teaching style is slow and steady, ensuring that everyone can follow along comfortably. His yoga teachings have been extremely helpful, and I highly recommend him to anyone looking for a dedicated and professional instructor!"
+                  &quot;Nishanth Sir is an excellent yoga teacher! He is calm, well-disciplined, and truly understands each student&apos;s needs. His teaching style is slow and steady, ensuring that everyone can follow along comfortably. His yoga teachings have been extremely helpful, and I highly recommend him to anyone looking for a dedicated and professional instructor!&quot;
                 </p>
                 <div className={styles.testimonialAuthor}>
                   <div className={styles.authorImage}>
