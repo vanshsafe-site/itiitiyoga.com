@@ -1,0 +1,150 @@
+.loginContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  overflow-y: auto;
+}
+
+.loginBox {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem 0;
+}
+
+.loginBox h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.loginBox p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #666;
+}
+
+.termsGroup {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.termsLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.submitButton {
+  background-color: #0070f3;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submitButton:hover {
+  background-color: #0051cc;
+}
+
+.submitButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.message {
+  padding: 0.75rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.termsSection {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+}
+
+.termsSection h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.termsContent {
+  color: #666;
+}
+
+.termsContent h3 {
+  color: #444;
+  font-size: 1.2rem;
+  margin: 1.5rem 0 1rem;
+}
+
+.termsContent p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.termsContent ul {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.termsContent li {
+  margin: 0.5rem 0;
+  line-height: 1.4;
+} 
